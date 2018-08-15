@@ -1,5 +1,78 @@
-* 
+*
 {
     margin: 0; 
     padding: 0; 
+}
+
+#img-div img
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 
+{
+font-family: 'Oswald', sans-serif;
+}
+
+h2
+{
+font-family: 'Montserrat', sans-serif;
+}
+
+h3, p
+{
+font-family: 'Markazi Text', serif;
+}
+
+#title .text-block1 
+{
+    height: 250px; 
+    width: 175px; 
+    position: absolute;
+    bottom: 155px;
+    left: 250px;
+    font-size: 105px;
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#title .text-block2
+{
+    height: 175px;
+    width: 350px;
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    font-size: 80px;
+    background-color: white;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tribute-info
+{
+    height: 80vh;
+}
+
+.text-box
+{
+    border: 1.5px solid white; 
+    background: black; 
+    color: white; 
+}
+
+.image-box img
+{
+    height: 500px;
+    width: 700px; 
 }
