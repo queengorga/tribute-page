@@ -4,6 +4,8 @@
     padding: 0; 
 }
 
+/* Main Section */
+
 #img-div img
 {
     width: 100vw;
@@ -14,10 +16,10 @@ h1
 {font-family: 'Oswald', sans-serif;}
 
 h2
-{font-family: 'Montserrat', sans-serif;}
+{font-family: 'Markazi Text', serif;}
 
 h3, p
-{font-family: 'Markazi Text', serif;}
+{font-family: 'Montserrat', sans-serif;}
 
 #title .text-block1 
 {
@@ -53,63 +55,57 @@ h3, p
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#tribute-info
-{
-    height: 100vh;
-    width: 100vw;
-}
-
 /* Tribute Info */
 
-.container
-{
-    padding: 20px;
-    display: inline-block;
-}
 
+#tribute-info .container
+{
+  display: inline-flex;
+  width: 100%;
+  padding-top: 50px; 
+  padding-bottom: 80px;
+}
 
 .column-text 
 {
-    float: left;
-    width: 70%;
-    padding: 10px;
-    position: relative;
-    margin-top: 20px;
+    width: 55%;
+    float: left; 
+    margin-left: 50px;
 }
 
-.column-text h1
+.column-text h2
 {
-    font-size: 30px;
-    padding: 15px 0 0 15px;  
+    font-size: 40px;    
 }
 
 .column-text p
 {
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: bold;
     text-align: justify;
-    padding: 10px 25px 0 20px;
+    margin-right: -50px;
 }
+
 .column-image 
 {
-    float: right;
-    width: 30%;
-    padding: 0px 10px 0 10px;
-    margin-top: -325px; 
-    margin-right: -325px;
+    width: 40%;
+    float: right; 
+    margin-right: -70px;
+    margin-top: 30px;
 }
 
 .column-image img
 {
-    display: block;
-    height: 325px;
-    width: 400px;   
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both
+    width: auto;
+    height: 375px;
+    margin-left: 10px;
+    border-radius: 4%;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2),    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (max-width: 1000px) 
@@ -122,4 +118,84 @@ h3, p
     img {
         margin: auto;
     }
+}
+
+/* Early Life */
+
+#early-life
+{
+    height: 85vh;
+    background: grey;
+}
+
+#early-life .container
+{
+    max-width: 950px;
+    margin: 0 auto;
+    padding-top: 80px;
+    margin-left: 80px;
+    display: inline;   
+}
+
+.text-block h2
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.text-block p
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.gallery img
+{  
+   height: auto;
+   width: auto;
+}
+
+.text-block
+{
+    width: 55%;
+    float: right;
+    padding-top: 75px;
+    padding-right: 50px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+
+@keyframes crossfade
+{
+    0%{background: url(img/paul3.jpg)}
+    20%{background: url(img/paul4.jpg)}
+    40%{background: url(img/paul5.jpg)}
+    60%{background: url(img/paul6.jpg)}
+    80%{background: url(img/paul7.jpg)}
+    100%{background: url(img/paul3.jpg)}
+}
+
+.gallery
+{
+    margin-top: 165px;
+    margin-left: 85px;
+    float: left;
+    width: 30%;
+    max-width: 800px;
+    max-height: 350px;
+    background: grey;
+    border-radius: 4%;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2),    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: crossfade 30s linear infinite;
+    -webkit-animation: crossfade 30s linear infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
