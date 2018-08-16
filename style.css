@@ -11,19 +11,13 @@
 }
 
 h1 
-{
-font-family: 'Oswald', sans-serif;
-}
+{font-family: 'Oswald', sans-serif;}
 
 h2
-{
-font-family: 'Montserrat', sans-serif;
-}
+{font-family: 'Montserrat', sans-serif;}
 
 h3, p
-{
-font-family: 'Markazi Text', serif;
-}
+{font-family: 'Markazi Text', serif;}
 
 #title .text-block1 
 {
@@ -61,18 +55,71 @@ font-family: 'Markazi Text', serif;
 
 #tribute-info
 {
-    height: 80vh;
+    height: 100vh;
+    width: 100vw;
 }
 
-.text-box
+/* Tribute Info */
+
+.container
 {
-    border: 1.5px solid white; 
-    background: black; 
-    color: white; 
+    padding: 20px;
+    display: inline-block;
 }
 
-.image-box img
+
+.column-text 
 {
-    height: 500px;
-    width: 700px; 
+    float: left;
+    width: 70%;
+    padding: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.column-text h1
+{
+    font-size: 30px;
+    padding: 15px 0 0 15px;  
+}
+
+.column-text p
+{
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: justify;
+    padding: 10px 25px 0 20px;
+}
+.column-image 
+{
+    float: right;
+    width: 30%;
+    padding: 0px 10px 0 10px;
+    margin-top: -325px; 
+    margin-right: -325px;
+}
+
+.column-image img
+{
+    display: block;
+    height: 325px;
+    width: 400px;   
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .column-text,
+    .column-image {
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        margin: auto;
+    }
 }
