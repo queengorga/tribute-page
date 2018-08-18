@@ -81,10 +81,11 @@ h3, p
 .column-text p
 {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-align: justify;
     margin-right: -30px;
+    color: black;
 }
 
 .column-image 
@@ -124,7 +125,7 @@ h3, p
 
 #early-life
 {
-    height: 135vh;
+    height: 130vh;
     background: grey;
     overflow: hidden;
     text-overflow: ellipsis; 
@@ -149,7 +150,7 @@ h3, p
 
 .text-block p
 {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 
@@ -195,10 +196,10 @@ h3, p
     animation: crossfade 30s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
     -webkit-animation: crossfade 30s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
     border-radius: 4%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
 }
 
 .text-quote
@@ -213,22 +214,23 @@ h3, p
     background: white;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2),    0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
 }
 
 .text-quote p
 {
-    font-size: 25px;
-    font-weight: light;
+    font-size: 18px;
+    font-weight: bold;
     font-display: wrap;
-    font-family: 'Markazi Text', serif;
     line-break: normal;
     text-align: justify;
     padding: 15px;
     margin: 15px;
+    color: black;
+
 }
 
 /* Career Section */
@@ -237,4 +239,71 @@ h3, p
 {
     height: 100vh;
     background: black; 
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.title-career h2
+{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.sidetab 
+{
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 25%;
+    height: 600px;
+}
+
+button 
+{
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.active, .links:hover
+{
+    background: gray; 
+    color: white;
+}
+ 
+.sidetab button .active
+{
+    background: gray;
+    color: white;
+}
+
+.content 
+{
+    float: left;
+    padding: 10px;
+    border: 2px solid white;
+    width: 70%;
+    border-left: none;
+    height: 600px;
+}
+
+.content img
+{
+    height: 75%;
+    width: 75%;
+    margin-left: 150px;
+}
+
+#career .content h2, p
+{
+    color: white;
+    margin: 5px;
 }
