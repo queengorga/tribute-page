@@ -100,46 +100,91 @@
         </div>
 
         <div class="sidetab">
-            <button class="links active" onclick="bandDetails(event,'quarrymen')"><h1>1957–1960: The Quarrymen</h1></button>
-            <button class="links" onclick="bandDetails(event,'thebeatles')"><h1>1960–1970: The Beatles</h1></button>
-            <button class="links" onclick="bandDetails(event,'wings')"><h1>1970–1981: Wings</h1></button>
-            <button class="links" onclick="bandDetails(event,'solo')"><h1>1981–Present: Solo Career & Collaborations</h1></button>>
+            <button class="bandTab" onclick="bandDetails(event,'quarrymen')"><h1>1957–1960: The Quarrymen</h1></button>
+            <button id="defaultTab" class="bandTab active" onclick="bandDetails(event,'thebeatles')"><h1>1960–1970: The Beatles</h1></button>
+            <button class="bandTab" onclick="bandDetails(event,'wings')"><h1>1970–1981: Wings</h1></button>
+            <button class="bandTab" onclick="bandDetails(event,'solo')"><h1>1981–Present: Solo Career & Collaborations</h1></button>>
         </div>
         
-        <div id="quarrymen" class="content">
+        <div id="quarrymen" class="details">
             <img src="img/thequarrymen.jpg" alt="">
             <h2>The Quarrymen</h2>
             <h3>1957-1960</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam iure blanditiis illo. Assumenda molestiae modi nostrum cupiditate nihil unde laboriosam minus, inventore libero molestias reiciendis ipsam quibusdam! Odit tempore nemo est cum neque sit, iusto illum odio perspiciatis a accusamus nisi! Nemo laboriosam quasi incidunt vero consectetur itaque eligendi.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum molestiae fugiat similique porro atque, cupiditate dolores ad magnam ullam nihil vitae aut impedit aliquid numquam possimus! Nam ipsam numquam dolore tempora, dolorum dolores, delectus incidunt nobis odio quod quidem quos provident deleniti. Porro voluptate magnam accusamus praesentium nobis architecto illo nemo, iste vitae aperiam maiores labore reiciendis consectetur asperiores possimus inventore laudantium illum accusantium cumque ipsam. Cupiditate quam consequuntur eligendi ipsa nam quas, dolorem, voluptates nihil odio quisquam, rem iure est incidunt id inventore reiciendis magnam beatae? Dolorum vel in necessitatibus voluptate, temporibus velit tempore esse unde molestiae quis! Incidunt quo sunt modi, iusto hic tempora magni alias voluptatibus! Quis atque temporibus hic incidunt provident.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui molestiae nesciunt quia aliquid, autem laudantium tenetur eos quasi accusantium odit numquam ea iste accusamus! Tenetur officia repellendus saepe illum, eius cum explicabo deleniti magni dicta nostrum nulla. Unde incidunt omnis necessitatibus minus porro quaerat, excepturi molestias ipsum optio consequatur dolorem quia libero, iusto culpa cumque impedit molestiae corporis? Velit doloremque repellat quaerat, cumque in est quas impedit nihil quos ut optio ipsam dignissimos error perferendis aliquam repellendus veritatis ducimus nobis?</p>
+            <p>At the age of fifteen on 6 July 1957, McCartney met John Lennon and his band, the Quarrymen, at the St Peter's Church Hall
+            fête in Woolton. The Quarrymen played a mix of rock and roll and skiffle, a type of popular music with jazz, blues and
+            folk influences. Soon afterwards, the members of the band invited McCartney to join as a rhythm guitarist, and he formed
+            a close working relationship with Lennon. Harrison joined in 1958 as lead guitarist, followed by Lennon's art school friend
+            Stuart Sutcliffe on bass, in 1960.[23] By May 1960 the band had tried several names, including Johnny and the Moondogs, Beatals
+            and the Silver Beetles. They adopted the name the Beatles in August 1960 and recruited drummer Pete Best shortly before
+            a five-engagement residency in Hamburg.</p>
+            <p>Lennon started a skiffle group that was very briefly called the Blackjacks, but changed the name before any public performances.
+            Some accounts credit Lennon with choosing the new name; other accounts credit his close friend Pete Shotton with suggesting
+            the name. The Quarrymen played at parties, school dances, cinemas and amateur skiffle contests before Paul McCartney joined
+            the band in October 1957. George Harrison joined the band in early 1958 at McCartney's recommendation, though Lennon initially
+            resisted because he felt Harrison (still 14 when he was first introduced to Lennon) to be too young. Both McCartney and Harrison
+            attended the Liverpool Institute.</p>
+            <p>The group made an amateur recording of themselves in 1958, performing Buddy Holly's "That'll Be the Day" and "In Spite of
+            All the Danger", a song written by McCartney and Harrison. The group moved away from skiffle and towards rock and roll, causing
+            several of the original members to leave. This left only a trio of Lennon, McCartney, and Harrison, who performed under several
+            other names, including Johnny and the Moondogs and Japage 3 before returning to the Quarrymen name in 1959. In 1960, the
+            group changed its name to the Beatles, and went on to have an extremely successful recording career.</p>
         </div>
         
-        <div id="thebeatles" class="content">
+        <div id="thebeatles" class="details">
             <img src="img/thebeatles.jpg" alt="">
             <h2>The Beatles</h2>
             <h3>1960-1970</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam iure blanditiis illo. Assumenda molestiae modi nostrum cupiditate nihil unde laboriosam minus, inventore libero molestias reiciendis ipsam quibusdam! Odit tempore nemo est cum neque sit, iusto illum odio perspiciatis a accusamus nisi! Nemo laboriosam quasi incidunt vero consectetur itaque eligendi.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum molestiae fugiat similique porro atque, cupiditate dolores ad magnam ullam nihil vitae aut impedit aliquid numquam possimus! Nam ipsam numquam dolore tempora, dolorum dolores, delectus incidunt nobis odio quod quidem quos provident deleniti. Porro voluptate magnam accusamus praesentium nobis architecto illo nemo, iste vitae aperiam maiores labore reiciendis consectetur asperiores possimus inventore laudantium illum accusantium cumque ipsam. Cupiditate quam consequuntur eligendi ipsa nam quas, dolorem, voluptates nihil odio quisquam, rem iure est incidunt id inventore reiciendis magnam beatae? Dolorum vel in necessitatibus voluptate, temporibus velit tempore esse unde molestiae quis! Incidunt quo sunt modi, iusto hic tempora magni alias voluptatibus! Quis atque temporibus hic incidunt provident.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui molestiae nesciunt quia aliquid, autem laudantium tenetur eos quasi accusantium odit numquam ea iste accusamus! Tenetur officia repellendus saepe illum, eius cum explicabo deleniti magni dicta nostrum nulla. Unde incidunt omnis necessitatibus minus porro quaerat, excepturi molestias ipsum optio consequatur dolorem quia libero, iusto culpa cumque impedit molestiae corporis? Velit doloremque repellat quaerat, cumque in est quas impedit nihil quos ut optio ipsam dignissimos error perferendis aliquam repellendus veritatis ducimus nobis?</p>
+            <p>The Beatles were informally represented by Allan Williams; in 1960, the group booked its first performance at a residency
+            in Hamburg.In 1961, Sutcliffe left the band and McCartney reluctantly became their bass player. While in Hamburg,
+            they recorded professionally for the first time and were credited as the Beat Brothers, who were the backing band for English
+            singer Tony Sheridan on the single "My Bonnie". This resulted in attention from Brian Epstein, who was a key figure in
+            their subsequent development and success. He became their manager in January 1962. Ringo Starr replaced Best in August,
+            and the band had their first hit, "Love Me Do", in October, becoming popular in the UK in 1963, and in the US a year later.</p>
+            <p>The fan hysteria became known as "Beatlemania", and the press sometimes referred to McCartney as the "cute Beatle". 
+            In August 1965, the Beatles released the McCartney composition "Yesterday", featuring a string quartet. Included
+            on the Help! LP, the song was the group's first recorded use of classical music elements and their first recording that involved
+            only a single band member.[34] "Yesterday" became one of the most covered songs in popular music history. Later that
+            year, during recording sessions for the album Rubber Soul, McCartney began to supplant Lennon as the dominant musical force
+            in the band. Musicologist Ian MacDonald wrote, "from 1965, McCartney would be in the ascendant not only as a songwriter,
+            but also as instrumentalist, arranger, producer, and de facto musical director of the Beatles." Critics described Rubber
+            Soul as a significant advance in the refinement and profundity of the band's music and lyrics. Considered a high point
+            in the Beatles catalogue, both Lennon and McCartney said they had written the music for the song "In My Life". McCartney
+            said of the album, "we'd had our cute period, and now it was time to expand." Recording engineer Norman Smith stated
+            that the Rubber Soul sessions exposed indications of increasing contention within the band: "the clash between John and Paul
+            was becoming obvious and as far as Paul was concerned, George could do no right—Paul was absolutely finicky."</p>
         </div>
         
-        <div id="wings" class="content">
+        <div id="wings" class="details">
             <img src="img/wings.jpg" alt="">
             <h2>Wings</h2>
             <h3>1970-1981</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam iure blanditiis illo. Assumenda molestiae modi nostrum cupiditate nihil unde laboriosam minus, inventore libero molestias reiciendis ipsam quibusdam! Odit tempore nemo est cum neque sit, iusto illum odio perspiciatis a accusamus nisi! Nemo laboriosam quasi incidunt vero consectetur itaque eligendi.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum molestiae fugiat similique porro atque, cupiditate dolores ad magnam ullam nihil vitae aut impedit aliquid numquam possimus! Nam ipsam numquam dolore tempora, dolorum dolores, delectus incidunt nobis odio quod quidem quos provident deleniti. Porro voluptate magnam accusamus praesentium nobis architecto illo nemo, iste vitae aperiam maiores labore reiciendis consectetur asperiores possimus inventore laudantium illum accusantium cumque ipsam. Cupiditate quam consequuntur eligendi ipsa nam quas, dolorem, voluptates nihil odio quisquam, rem iure est incidunt id inventore reiciendis magnam beatae? Dolorum vel in necessitatibus voluptate, temporibus velit tempore esse unde molestiae quis! Incidunt quo sunt modi, iusto hic tempora magni alias voluptatibus! Quis atque temporibus hic incidunt provident.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui molestiae nesciunt quia aliquid, autem laudantium tenetur eos quasi accusantium odit numquam ea iste accusamus! Tenetur officia repellendus saepe illum, eius cum explicabo deleniti magni dicta nostrum nulla. Unde incidunt omnis necessitatibus minus porro quaerat, excepturi molestias ipsum optio consequatur dolorem quia libero, iusto culpa cumque impedit molestiae corporis? Velit doloremque repellat quaerat, cumque in est quas impedit nihil quos ut optio ipsam dignissimos error perferendis aliquam repellendus veritatis ducimus nobis?</p>
+            <p>After the Beatles broke up in 1970, McCartney continued his musical career with his first solo release, McCartney, a US number-one
+            album. Apart from some vocal contributions from Linda, McCartney is a one-man album, with McCartney providing compositions,
+            instrumentation and vocals. In 1971, he collaborated with Linda and drummer Denny Seiwell on a second album, Ram.</p>
+            <p>A UK number one and a US top five, Ram included the co-written US number-one hit single "Uncle Albert/Admiral Halsey".
+            Later that year, ex-Moody Blues guitarist Denny Laine joined the McCartneys and Seiwell to form the band Wings. McCartney
+            had this to say on the group's formation: "Wings were always a difficult idea, any group having to follow the Beatles'
+            success would have a hard job. I found myself in that very position.</p>
+            <p>However, it was a choice between going on or finishing,
+            and I loved music too much to think of stopping." In September 1971, the McCartneys' daughter Stella was born, named in honour of Linda's grandmothers, both of whom were named Stella. Following the addition of guitarist Henry McCullough,
+            Wings' first concert tour began in 1972 with a debut performance in front of an audience of seven hundred at the University
+            of Nottingham. Ten more gigs followed as they travelled across the UK in a van during an unannounced tour of universities,
+            during which the band stayed in modest accommodation and received pay in coinage collected from students, while avoiding
+            Beatles songs during their performances.</p>
+            <p>McCartney later said, "The main thing I didn't want was to come on stage, faced
+            with the whole torment of five rows of press people with little pads, all looking at me and saying, 'Oh well, he is not as
+            good as he was.' So we decided to go out on that university tour which made me less nervous ... by the end of that tour I
+            felt ready for something else, so we went into Europe." </p>
         </div>
 
-        <div id="solo" class="content">
+        <div id="solo" class="details">
             <img src="img/paul15.jpg" alt="">
             <h2>Solo Career & Collaborations</h2>
             <h3>1981-Present</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam iure blanditiis illo. Assumenda molestiae modi nostrum cupiditate nihil unde laboriosam minus, inventore libero molestias reiciendis ipsam quibusdam! Odit tempore nemo est cum neque sit, iusto illum odio perspiciatis a accusamus nisi! Nemo laboriosam quasi incidunt vero consectetur itaque eligendi.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum molestiae fugiat similique porro atque, cupiditate dolores ad magnam ullam nihil vitae aut impedit aliquid numquam possimus! Nam ipsam numquam dolore tempora, dolorum dolores, delectus incidunt nobis odio quod quidem quos provident deleniti. Porro voluptate magnam accusamus praesentium nobis architecto illo nemo, iste vitae aperiam maiores labore reiciendis consectetur asperiores possimus inventore laudantium illum accusantium cumque ipsam. Cupiditate quam consequuntur eligendi ipsa nam quas, dolorem, voluptates nihil odio quisquam, rem iure est incidunt id inventore reiciendis magnam beatae? Dolorum vel in necessitatibus voluptate, temporibus velit tempore esse unde molestiae quis! Incidunt quo sunt modi, iusto hic tempora magni alias voluptatibus! Quis atque temporibus hic incidunt provident.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui molestiae nesciunt quia aliquid, autem laudantium tenetur eos quasi accusantium odit numquam ea iste accusamus! Tenetur officia repellendus saepe illum, eius cum explicabo deleniti magni dicta nostrum nulla. Unde incidunt omnis necessitatibus minus porro quaerat, excepturi molestias ipsum optio consequatur dolorem quia libero, iusto culpa cumque impedit molestiae corporis? Velit doloremque repellat quaerat, cumque in est quas impedit nihil quos ut optio ipsam dignissimos error perferendis aliquam repellendus veritatis ducimus nobis?</p>
+            <p>In 1982, McCartney collaborated with Stevie Wonder on the Martin-produced number-one hit "Ebony and Ivory", included on McCartney's Tug of War LP, and with Michael Jackson on "The Girl Is Mine" from Thriller.[119][nb 22] "Ebony and Ivory" was McCartney's record 28th single to hit number one on the Billboard 100.[121] The following year, he and Jackson worked on "Say Say Say", McCartney's most recent US number one as of 2014. McCartney earned his latest UK number one as of 2014 with the title track of his LP release that year, "Pipes of Peace".</p>
+            <p>McCartney ventured into orchestral music in 1991, when the Royal Liverpool Philharmonic Society commissioned a musical piece by him to celebrate its sesquicentennial. He collaborated with composer Carl Davis, producing Liverpool Oratorio. The performance featured opera singers Kiri Te Kanawa, Sally Burgess, Jerry Hadley and Willard White, with the Royal Liverpool Philharmonic Orchestra and the choir of Liverpool Cathedral.</p>
+            <p>In 2000, he released the electronica album Liverpool Sound Collage with Super Furry Animals and Youth, using the sound collage and musique concrète techniques that had fascinated him in the mid-1960s.[164] He contributed the song "Nova" to a tribute album of classical, choral music called A Garland for Linda (2000), dedicated to his late wife.</p>
+            <p>In 2010, McCartney opened the Consol Energy Center in Pittsburgh, Pennsylvania.[191][nb 45] In July 2011, McCartney performed at two sold-out concerts at the new Yankee Stadium. A New York Times review of the first concert reported that McCartney was "not saying goodbye but touring stadiums and playing marathon concerts."[193] McCartney was commissioned by the New York City Ballet, and In September 2011 he released his first score for dance, a collaboration with Peter Martins called Ocean's Kingdom.[194] Also in 2011, McCartney married Nancy Shevell.[195] He released Kisses on the Bottom, a collection of standards.</p>
         </div>
 
         

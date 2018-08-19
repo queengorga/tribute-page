@@ -1,17 +1,19 @@
-function bandDetails(evt, bandName) {
+function bandDetails(band, bandName) {
 
-    var i, content, links;
+    var i, details, bandTab;
 
-    content = document.getElementsByClassName("content");
-    for (i = 0; i < content.length; i++) {
-        content[i].style.display = "none";
+    details = document.getElementsByClassName("details");
+    for (i = 0; i < details.length; i++) {
+        details[i].style.display = "none";
     }
 
-    links = document.getElementsByClassName("links");
-    for (i = 0; i < links.length; i++) {
-        links[i].className = links[i].className.replace(" active", "");
+    bandTab = document.getElementsByClassName("bandTab");
+    for (i = 0; i < bandTab.length; i++) {
+        bandTab[i].className = bandTab[i].className.replace(" active", "");
     }
 
     document.getElementById(bandName).style.display = "block";
-    evt.currentTarget.className += " active";
+    band.currentTarget.className += " active";
 }
+
+document.getElementById("defaultTab").click();
