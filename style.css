@@ -154,6 +154,12 @@ h3, p
     color: white;
 }
 
+.text-block a
+{
+    color: lightblue;
+    line-break: auto;
+}
+
 .gallery img
 {  
    height: auto;
@@ -237,11 +243,22 @@ h3, p
 
 #career
 {
-    height: 120vh;
+    height: 115vh;
     background: black; 
     padding: 50px;
     margin: 0 auto;
 }
+
+.details a
+{
+    color: lightskyblue;
+}
+
+.details a:visited
+{
+    color: lightgreen;
+}
+
 
 .title-career h2
 {
@@ -254,7 +271,7 @@ h3, p
 .sidetab 
 {
     float: left;
-    border: 2px solid white; 
+    border: 2px solid white;
     background-color: white;
     width: 25%;
     height: 710px;
@@ -349,7 +366,7 @@ h3, p
 {
     font-size: 60px;
     margin-top: 60px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .row1 
@@ -384,14 +401,20 @@ h3, p
     transform: translate(-50%, -50%);
     width: 260px;
     height: 250px;
-    margin: 275px 10px 10px 20px;
-    background: #262626;
+    margin: 250px 5px 45px 20px;
+    padding: 2px;
+    border-radius: 8px;
+    4background: #262626;
     overflow: hidden;
     clear: both;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 .albumCard .albumImage,
@@ -430,7 +453,7 @@ h3, p
     background: black;
     top: 0;
     left: 100%;
-    padding: 40px 20px 60px 20px;
+    padding: 40px 10px 60px 20px;
 }
 
 .albumCard:hover .albumDetails 
