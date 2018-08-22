@@ -375,9 +375,9 @@ h3, p
 
 .title h2
 {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 50px;
-    margin-left: 50px;
+    text-align: center;
 }
 
 .row
