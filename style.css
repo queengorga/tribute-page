@@ -587,13 +587,60 @@ h3, p
     text-decoration: none;
 }
 
+.tooltip
+{
+    text-decoration: none;
+    position: relative;
+}
+
+.tooltip span 
+{
+    display: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: black;
+    background: white;
+}
+
+.tooltip span img 
+{
+    float: left;
+    margin: 0px 4px 4px 0;
+}
+
+.tooltip:hover span 
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: -50px;
+    margin-left: 90px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+/* Citations */
+
+#citations
+{
+    height: 80vh;
+    background-color: black;
+}
 
 /* Footer */
 
-footer 
+footer p
 {
-    background: black;
+    background: grey;
     color: white;
+    font-size: 25px;
+    font-family: 'Markazi Text', serif;
     text-align: center; 
     padding: 10px;
 }
