@@ -669,6 +669,12 @@ h3, p
 .column-sources a
 {
     text-decoration: none;
+    color: lightblue;
+}
+
+.column-sources a:hover 
+{
+    text-decoration: underline;
 }
 
 .column-sources a:visited
